@@ -15,3 +15,4 @@ link_libraries(-pthread)
 set(${INSTALL_BIN} ${CMAKE_CURRENT_BINARY_DIR}/../bin/)
 
 add_subdirectory(concurrent_vector)
+add_subdirectory(concurrent_queue)
